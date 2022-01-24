@@ -4,9 +4,10 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0, auto;
 }
 
 h1 {
@@ -25,15 +26,9 @@ h4 {
   color: #1c5380
 }
 
-#midle {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-#midle-imgs {
-  display: flex;
-  justify-content: flex-end;
+.midle-imgs {
+  position: relative;
+  bottom: 350px;
 }
 
 .main-sec {
@@ -46,5 +41,21 @@ footer {
 }
 
 #midle-text {
+  width: 500px;
+  background-color: white;
   margin-left: 30px;
+  position: relative;
+  bottom: 150px;
+  border: 3px solid grey;
+}
+
+button {
+  background-color: #1c5380;
+  color: white;
+}
+
+.relative {
+  position: relative;
+  bottom: 30px;
+  left: 40px;
 }
